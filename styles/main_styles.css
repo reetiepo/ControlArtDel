@@ -723,6 +723,7 @@ section
 .main_slider_content h1 span
 {
 	font-family: 'Myriad Pro Regular', sans-serif;
+	font-size: 90px;
 }
 .main_slider_content p
 {
@@ -891,6 +892,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	opacity: 0.35;
 }
 .about_shapes
 {
@@ -905,7 +907,7 @@ section
 	font-weight: 600;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #000000;
 	line-height: 1.35;
 	margin-bottom: 116px;
 }
@@ -947,8 +949,13 @@ section
 }
 .about_text p
 {
-	color: #FFFFFF;
+	color: #000000;
 	margin-bottom: 0px;
+}
+.about_text p span
+{
+	font-family: 'Myriad Pro Regular', sans-serif;
+	font-style: italic; 
 }
 .about_text img
 {
@@ -1178,14 +1185,14 @@ section
 }
 .service_item h3
 {
-	color: #FFFFFF;
+	color: #000000;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	margin-bottom: 31px;
 }
 .service_item p
 {
-	color: #FFFFFF;
+	color: #000000;
 	max-width: 100%;
 }
 .icon_container
