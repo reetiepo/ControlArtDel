@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<title>Control Art Del</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Zeta Template Project">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			#landing-page {
+			  width: 100%;
+			  height: auto;
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			}
+			#landing-page-image {
+				width: 100%;
+			}
+			#footer {
+			    height: auto;
+			    display: flex;
+ 				flex-wrap: wrap;
+			    margin-top: 20px;
+			}
+			@media only screen and (max-width: 768px) {
+				#footer img {
+					height: 3em;
+	    			margin: 10px 5px;
+	    			vertical-align: middle;
+				}
+			}
+			@media only screen and (min-width: 768px) {
+				#footer img {
+					height: 8em;
+	    			margin: 10px 5px;
+	    			vertical-align: middle;
+				}
+			}
+			#footer div {
+				margin: 10px;
+				width: max-content;
+			}
+			#footer span {
+				font-family: Tahoma, Verdana, Segoe, sans-serif; 
+				font-size: 1em; 
+				font-style: normal;
+				display: block;
+    			margin-bottom: 10px;
+    			padding-left: 15px;
+			}
+			#contato {
+    			margin-top: 20px;
+				list-style: none;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#contato span {
+				font-family: Tahoma, Verdana, Segoe, sans-serif; 
+				font-size: 0.8em; 
+				font-weight: bold;
+    			margin: 0 3%; 
+    			height: 40px;
+			}
+			a {
+				color: #000;
+				text-decoration: none;
+				display: inline-block;
+			}
+			#div-link {
+	    		z-index: 10;
+	    		position: absolute;
+	    		padding: 5px;
+	    		right: 0;
+	    		top: 0;
+	    		background-color: #363435;
+			}
+			#div-link a {
+	    		color: #FFF;
+				text-decoration: none;
+				display: inline-block;
+				font-family: Tahoma, Verdana, Segoe, sans-serif; 
+				font-size: 1em; 
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="landing-page">
+			<div id="div-link">
+				<a href="http://controlartdel.com.br/index.html">Clique aqui para entrar no site</a>
+			</div>
+			<img id="landing-page-image" src="lp_images/bg_landingpage.jpg">
+
+			<div id="footer">
+				<div>
+					<span>Realização:</span>
+					<img class="img-footer" src="lp_images/cad.jpg">
+				</div>
+				<div>
+					<span>Patrocínio:</span>
+					<a href="https://www.casadaarte.com.br" target="_blank">
+						<img class="img-footer" src="lp_images/casa_da_arte.jpg">
+					</a>
+					<a href="https://www.colorgin.com.br/" target="_blank">
+						<img class="img-footer" src="lp_images/colorgin.jpg">
+					</a>
+					<a href="https://www.condor.ind.br/" target="_blank">
+						<img class="img-footer" src="lp_images/condor.jpg">
+					</a>
+				</div>
+				<div>
+					<span>Apoio:</span>
+					<a href=#" target="_blank">
+						<img class="img-footer" src="lp_images/associacao_comercial_jardins.jpg">
+					</a>
+				</div>
+			</div>
+			<div id="contato">
+				<span>Informações: <a href="tel:1130630916">+55 11 3063-0916</a></span>
+				<span>Email: <a href="mailto:contato@alojsp.com.br">contato@alojsp.com.br</a></span>
+			</div>
+		</div>
+	</body>
+</html>

@@ -5,9 +5,6 @@
 
 COLOR PALETTE
 
-
-
-
 [Table of Contents]
 
 1. Fonts
@@ -132,7 +129,8 @@ p::selection
 {
 	background: #fde0db;
 }
-h1{font-size: 72px;}
+h1{font-size: 60px;}
+h1 span{font-size: 90px; font-family: 'Myriad Pro Regular', sans-serif; }
 h2{font-size: 30px;}
 h3{font-size: 18px;}
 h4{font-size: 14px;}
@@ -152,6 +150,10 @@ h5::selection,
 h6::selection
 {
 	
+}
+#owl-container {
+	padding-left: 0px !important;
+	margin-left: 0px !important;
 }
 ::-webkit-input-placeholder
 {
@@ -706,11 +708,9 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	opacity: 0.35;
 }
 .main_slider_content
 {
-	width: 610px;
 	height: 100%;
 	margin-top: 200px;
 }
@@ -718,20 +718,21 @@ section
 {
 	font-weight: 300;
 	line-height: 1.15;
-	color: #000000;
-}
-.main_slider_content h1 span
-{
-	font-family: 'Myriad Pro Regular', sans-serif;
-	font-size: 90px;
+	color: #FFFFFF;
 }
 .main_slider_content p
 {
 	font-size: 16px;
 	font-weight: 300;
-	color: #000000;
+	color: #FFFFFF;
 	padding-left: 5px;
 	margin-top: 1px;
+}
+.bg_text_slider {
+	background-color: rgba(224, 38, 137, 0.75);
+    padding: 3px 10px;
+    width: 60%;
+    padding-left: 10%;
 }
 .discover_button
 {
@@ -886,13 +887,12 @@ section
 {
 	position: absolute;
 	top: 0;
-	left: 0;
-	width: 100%;
+	left: 50%;
+	width: 50%;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	opacity: 0.35;
 }
 .about_shapes
 {
@@ -909,7 +909,7 @@ section
 	text-transform: uppercase;
 	color: #000000;
 	line-height: 1.35;
-	margin-bottom: 116px;
+	margin-bottom: 50px;
 }
 .section_title h2 span
 {
@@ -924,7 +924,7 @@ section
 	transform: translate(-50%, -50px);
 	font-size: 72px;
 	font-weight: 900;
-	color: #ff0000;
+	color: #e02689;
 	opacity: 0.32;
 }
 .section_title h2::before
@@ -946,17 +946,9 @@ section
 .about_text
 {
 	padding-right: 50px;
+    text-align: justify;
 }
-.about_text p
-{
-	color: #000000;
-	margin-bottom: 0px;
-}
-.about_text p span
-{
-	font-family: 'Myriad Pro Regular', sans-serif;
-	font-style: italic; 
-}
+
 .about_text img
 {
 	margin-top: 20px;
@@ -1060,19 +1052,22 @@ section
 }
 .testimonials_content
 {
-	padding-left: 120px;
-	padding-right: 120px;
-	padding-bottom: 49px;
-	padding-top: 120px;
-	max-width: 100%;
+	padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 49px;
+    padding-top: 50px;
+    max-width: 100%;
+    text-align: justify;
 }
 .test_name
 {
-	font-size: 16px;
+	font-size: 26px;
 	font-weight: 600;
 	letter-spacing: 0.2em;
 	color: #1c1c1c;
 	text-transform: uppercase;
+    text-align: center;
+	padding-bottom: 10px;
 }
 .test_title
 {
@@ -1083,7 +1078,7 @@ section
 }
 .test_quote
 {
-	font-size: 30px;
+	font-size: 14px;
 	line-height: 1;
 	color: #e02689;
 	font-style: italic;
@@ -1251,7 +1246,7 @@ section
 }
 .owl-carousel .owl-item img
 {
-	width: auto !important;
+	width: 80px;
 }
 
 /*********************************
