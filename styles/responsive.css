@@ -285,10 +285,6 @@
 	{
 		margin-left: 4px;
 	}
-	.footer_social li i
-	{
-		font-size: 13px;
-	}
 }
 
 /************
@@ -335,10 +331,12 @@
 	{
 		height: auto;
 	}
-	.cr p
+	.container {
+	    max-width: 540px;
+	}
+	.footer_social li i
 	{
-		font-size: 13px;
-		margin-bottom: 15px;
+		font-size: 14px;
 	}
 }
 
@@ -509,6 +507,9 @@
 	.contact_button
 	{
 		margin-top: 45px;
+	}
+	.newsletter_email {
+		width: 90%;
 	}
 }
 

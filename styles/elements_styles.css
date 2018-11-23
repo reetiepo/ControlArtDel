@@ -23,7 +23,8 @@
 	7.4 Elements - Loaders
 	7.5 Elements - Milestones
 	7.6 Elements - Icon Boxes
-8. Footer
+8. Newsletter
+9. Footer
 
 
 
@@ -139,6 +140,41 @@ h5::selection,
 h6::selection
 {
 	
+}
+::-webkit-input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	font-style: italic !important;
+	color: #6e6e6e !important;
+}
+:-moz-placeholder /* older Firefox*/
+{
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	font-style: italic !important;
+	color: #6e6e6e !important;
+}
+::-moz-placeholder /* Firefox 19+ */ 
+{
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	font-style: italic !important;
+	color: #6e6e6e !important;
+} 
+:-ms-input-placeholder
+{ 
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	font-style: italic !important;
+	color: #6e6e6e !important;
+}
+::input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	font-style: italic !important;
+	color: #6e6e6e !important;
 }
 .form-control
 {
@@ -681,7 +717,7 @@ section
 	font-weight: 600;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #000000;
 	line-height: 1.35;
 	margin-bottom: 116px;
 }
@@ -1070,7 +1106,77 @@ section
 }
 
 /*********************************
-8. Footer
+8. Newsletter
+*********************************/
+
+.newsletter
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.newsletter_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.newsletter_content h1
+{
+	font-weight: 300;
+	color: #000000;
+	margin-bottom: 2px;
+}
+.newsletter_content span
+{
+	font-size: 12px;
+	font-weight: 600;
+	color: #000000;
+	letter-spacing: 1em;
+	text-transform: uppercase;
+	padding-left: 3px;
+}
+.newsletter_form
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+    flex-wrap: wrap;
+}
+.newsletter_title h2 {
+    margin-bottom: 30px;
+}
+.newsletter_email, .newsletter_button {
+    display: inline-block;
+	font-size: 12px;
+	width: fit-content;    
+	height: 40px;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+}
+.newsletter_email {
+	width: 400px;
+    -webkit-appearance: none;
+    font-size: 14px;
+    border: solid 1px #b7b7b7;
+    padding-left: 17px;
+    margin-right: 3px;
+}
+.newsletter_button a { 
+	line-height: 40px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.newsletter_button::-moz-focus-inner { 
+    border: 0;
+}
+
+/*********************************
+9. Footer
 *********************************/
 
 .footer
@@ -1079,7 +1185,23 @@ section
 }
 .footer_content
 {
-	height: 96px;
+	height: 110px;
+}
+.footer_content div
+{
+	padding: 8px 0px;
+}
+.footer_info
+{
+	font-size: 12px;
+}
+.footer_info a
+{
+	color: #6e6e6e;
+}
+.footer_info a:hover
+{
+	text-decoration: underline;
 }
 .footer_social_container
 {
@@ -1102,14 +1224,42 @@ section
 }
 .footer_social li i
 {
-	font-size: 14px;
+	font-size: 16px;
 	color: rgba(110,110,110,0.6);
 }
 .footer_social li:hover i
 {
 	color: rgba(255,255,255,1);
 }
-.cr p
+.footer_container 
 {
-	margin-bottom: 0px;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer_info i {
+    width: 15px;
+    text-align: center;
+}
+.cr
+{    
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+.cr span
+{
+	font-size: 11px;
+	margin: 0px 5px;
+}
+.cr span a
+{
+	color: #6e6e6e;
+}
+.cr span a:hover
+{
+	text-decoration: underline;
 }
