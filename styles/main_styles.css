@@ -860,7 +860,7 @@ section
 .features_col
 {
 	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-bottom: 120px;  
 }
 .features_item h3
 {
@@ -1002,6 +1002,10 @@ section
 	padding-top: 135px;
 	z-index: 2;
 }
+.team_row {
+	display: inline-flex;
+    flex-wrap: wrap;
+}
 .team .post-module {
   position: relative;
   z-index: 1;
@@ -1015,7 +1019,8 @@ section
   -moz-transition: all 0.3s linear 0s;
   -ms-transition: all 0.3s linear 0s;
   -o-transition: all 0.3s linear 0s;
-  transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;    
+  text-align: left;
 }
 .team .post-module:hover,
 .team .hover {
@@ -1094,6 +1099,7 @@ section
 .team .container {
   min-width: 300px;
   margin: 0 auto;
+  padding: 0px;
 }
 .team .container:before,
 .team .container:after {
@@ -1107,7 +1113,6 @@ section
   -webkti-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  float: left;
 }
 .team .container .column .demo-title {
   margin: 0 0 15px;
@@ -1137,7 +1142,7 @@ section
 .testimonials_container
 {
 	width: 100%;
-	height: calc(100% - 70px);
+	/*height: calc(100% - 70px);*/
 }
 .testimonials_container_inner
 {
