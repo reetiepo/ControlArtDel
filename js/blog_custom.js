@@ -181,7 +181,6 @@ $(document).ready(function()
 			},1000);
 		}
 	}
-
 	/* 
 
 	6. Init Gallery

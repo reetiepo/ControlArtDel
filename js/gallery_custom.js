@@ -8,6 +8,8 @@
 2. Set Header
 2. Init Menu
 3. Init Parallax
+4. Init Flickr
+5. Init Gallery
 
 
 ******************************/
@@ -43,7 +45,6 @@ $(document).ready(function()
 
 	initMenu();
 	initParallax();
-
 	/* 
 
 	2. Set Header
@@ -151,4 +152,51 @@ $(document).ready(function()
 			});
 		}
 	}
+
+	/* 
+
+	4. Init Flickr
+
+	*/
+
+	function initFlickr()
+	{
+		if($('.flickr_gallery').length)
+		{
+			setTimeout(function()
+			{
+				$('.colorbox').colorbox();
+				
+			},1000);
+		}
+
+		getAlbunsList(function(data) {
+			var data = data.photosets.photoset;
+			var html = '';
+
+			$.each(data, function(i, item) {
+				html += '<div class="sidebar_flickr">' +
+					'<div class="sidebar_title">' + data[i].title._content + '</div>' +
+					'<div class="flickr_gallery" data-toggle="jsfg" data-per-page="6" data-set-id="' + data[i].id + '"></div>' +
+				'</div>';
+			});
+			$('#section_galleries').html(html);
+			console.log(data);
+			console.log(html);
+			initFlickr();
+		}); 
+	}
+
+	function getAlbunsList(callback) {
+        var settings = {
+			"async": true,
+			"crossDomain": true,
+			"url": "https://api.flickr.com/services/rest/?method=flickr.photosets.getList&api_key=0bab2c9f835eab3d0074b23449c64cac&user_id=114081595%40N06&format=json&nojsoncallback=1&auth_token=72157702512189501-faf6f4b95a3eee76&api_sig=f08f0af9cfb9d98f3c4065bd52f2a6a2",
+			"method": "GET",
+			"headers": {}
+		}
+
+		$.ajax(settings).done(callback);
+    }
+
 });

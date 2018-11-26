@@ -11,8 +11,11 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="plugins/js-flickr-gallery-1.24/js-flickr-gallery.css">
+<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/services_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
+
 </head>
 
 <body>
@@ -81,14 +84,13 @@
 		<!-- Parallax Background -->
 		<!-- <div class="page_top_background parallax-window" data-parallax="scroll" data-speed="0.7" data-image-src="images/services_parallax.jpg"></div> -->
 		<div class="home_background prlx" style="background-image:url(images/services_parallax.jpg)"></div>
-		<div class="services_page_shapes" style="background-image:url(images/services_page_shapes.png)"></div>
 
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="home_content">
-						<h1>Services</h1>
-						<span>what we do</span>
+						<h1>Galeria</h1>
+						<span>venha conhecer nossa arte</span>
 					</div>
 				</div>
 			</div>
@@ -107,9 +109,20 @@
 		</ul>
 	</div>
 
-	<!-- Services -->
+	<!-- Gallery -->
 
 	<div class="services">
+		<div class="container">
+			<div class="row">
+				<div id="section_galleries" class="sidebar_section">
+					<div class="sidebar_flickr"><div class="sidebar_title">Album Evento X</div><div class="flickr_gallery" data-toggle="jsfg" data-per-page="6" data-set-id="72157702511370071"></div></div><div class="sidebar_flickr"><div class="sidebar_title">Album Artes</div><div class="flickr_gallery" data-toggle="jsfg" data-per-page="6" data-set-id="72157703942439484"></div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Services -->
+
+	<!-- <div class="services">
 
 		<div class="container">
 			<div class="row">
@@ -174,16 +187,16 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Cards -->
 
-	<div class="zeta_cards">
+	<!-- <div class="zeta_cards">
 		
 		<div class="container-fluid">
 			<div class="row">
 
-				<!-- Card Item -->
+				<!-- Card Item - ->
 				<div class="col-lg-4 zeta_card zeta_card_1 prlx_parent">
 					<div class="zeta_card_background prlx" style="background-image:url(images/card_1.jpg)"></div>
 					<div class="zeta_card_content">
@@ -195,7 +208,7 @@
 					</div>
 				</div>
 
-				<!-- Card Item -->
+				<!-- Card Item - ->
 				<div class="col-lg-4 zeta_card zeta_card_2 prlx_parent">
 					<div class="zeta_card_background prlx" style="background-image:url(images/card_2.jpg)"></div>
 					<div class="zeta_card_content">
@@ -207,7 +220,7 @@
 					</div>
 				</div>
 
-				<!-- Card Item -->
+				<!-- Card Item - ->
 				<div class="col-lg-4 zeta_card zeta_card_3 prlx_parent">
 					<div class="zeta_card_background prlx" style="background-image:url(images/card_3.jpg)"></div>
 					<div class="zeta_card_content">
@@ -221,64 +234,7 @@
 			</div>
 		</div>
 
-	</div>
-
-	<!-- Pic Boxes -->
-
-	<div class="picture_boxes">
-		
-		<div class="container">
-			<div class="row">
-
-				<!-- Pic Box -->
-				<div class="col-lg-4 pic_box">
-					<div class="card">
-						<img src="images/pic_box_1.jpg" class="card-img-top" alt="">
-						<h3 class="card-title pic_box_title">the future</h3>
-						<p class="card-text pic_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen.</p>
-						<a href="#" class="pic_box_link">read more
-							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
-							<polygon id="arrow_poly_1" class="arrow_poly" fill="#e02689" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
-							</svg>
-						</a>
-					</div>
-				</div>
-
-				<!-- Pic Box -->
-				<div class="col-lg-4 pic_box">
-					<div class="card">
-						<img src="images/pic_box_2.jpg" class="card-img-top" alt="">
-						<h3 class="card-title pic_box_title">investment strategy</h3>
-						<p class="card-text pic_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen.</p>
-						<a href="#" class="pic_box_link">read more
-							<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
-							<polygon id="arrow_poly_2" class="arrow_poly" fill="#e02689" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
-							</svg>
-						</a>
-					</div>
-				</div>
-
-				<!-- Pic Box -->
-				<div class="col-lg-4 pic_box">
-					<div class="card">
-						<img src="images/pic_box_3.jpg" class="card-img-top" alt="">
-						<h3 class="card-title pic_box_title">new plans</h3>
-						<p class="card-text pic_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen.</p>
-						<a href="#" class="pic_box_link">read more
-							<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
-							<polygon id="arrow_poly_3" class="arrow_poly" fill="#e02689" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
-							</svg>
-						</a>
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-	</div>
+	</div> -->
 
 	<!-- Newsletter -->
 
@@ -356,8 +312,11 @@
 <script src="plugins/parallax.js-1.5.0/parallax.min.js"></script>
 <script src="plugins/progressbar/progressbar.min.js"></script>
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/js-flickr-gallery-1.24/js-flickr-gallery.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 <script src="plugins/easing/easing.js"></script>
-<script src="js/services_custom.js"></script>
+<script src="js/gallery_custom.js"></script>
+
 </body>
 
 </html>

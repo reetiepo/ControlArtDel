@@ -1067,8 +1067,58 @@ section
     border: 0;
 }
 
+
 /*********************************
-13. Footer
+13. Sidebar Flickr
+*********************************/
+
+.sidebar_title
+{
+	font-size: 16px;
+	font-weight: 600;
+	color: #1c1c1c;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	padding-bottom: 11px;
+	margin-bottom: 59px;
+}
+.sidebar_title::after
+{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 43px;
+	height: 2px;
+	background: #e02689;
+	content: '';
+}
+.sidebar_section
+{
+	margin-bottom: 58px;
+}
+.sidebar_section:last-child
+{
+	margin-bottom: 0px;
+}
+.span1
+{    
+	display: inline-flex;
+	border: solid 0.5px #FFFFFF;
+}
+.span1 img
+{
+	width: 100%;
+	min-height: 100px; 
+}
+.thumbnails
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*********************************
+14. Footer
 *********************************/
 
 .footer

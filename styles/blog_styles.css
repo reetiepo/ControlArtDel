@@ -1143,6 +1143,12 @@ section
 	letter-spacing: 0.075em;
 	margin-top: 2px;
 }
+.recent_post_image a img
+{
+    width: 63px;
+    height: 63px;
+    object-fit: cover;
+}
 
 /*********************************
 12. Sidebar Categories
