@@ -797,8 +797,8 @@ section
 
 .services
 {
-	padding-top: 120px;
-	padding-bottom: 120px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 .services_background
 {
@@ -1071,7 +1071,9 @@ section
 /*********************************
 13. Sidebar Flickr
 *********************************/
-
+.sidebar_flickr {
+    padding-top: 20px;
+}
 .sidebar_title
 {
 	font-size: 16px;
@@ -1115,6 +1117,95 @@ section
 {
 	display: flex;
 	flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*********************************
+7.3 Elements - Accordions
+*********************************/
+
+.elements_accordions
+{
+	margin-top: 60px;
+}
+.accordion_container
+{
+	margin-bottom: 15px;
+}
+.accordion
+{
+	height: 60px;
+	width: 100%;
+	background: #f0f0f0;
+	padding-left: 30px;
+	cursor: pointer;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	font-weight: bold;
+}
+.accordion.active
+{
+	background: #e4e4e4;
+}
+.accordion.active::after
+{
+	background: #e02689 !important;
+	content: '-';
+	color: #e4e4e4;
+}
+.accordion::after
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 62px;
+	height: 100%;
+	content: '+';
+	border: solid 2px #e02689;
+	font-size: 18px;
+	color: #e02689;
+	font-weight: 600;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion:hover
+{
+	background: #e4e4e4;
+}
+.accordion:hover::after
+{
+	background: #e02689;
+	color: #FFFFFF;
+}
+.accordion_panel
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.accordion_panel p
+{
+	padding-top: 15px;
 }
 
 /*********************************

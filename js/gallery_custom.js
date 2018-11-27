@@ -45,6 +45,7 @@ $(document).ready(function()
 
 	initMenu();
 	initParallax();
+	initFlickr();
 	/* 
 
 	2. Set Header
@@ -159,44 +160,89 @@ $(document).ready(function()
 
 	*/
 
-	function initFlickr()
-	{
-		if($('.flickr_gallery').length)
-		{
-			setTimeout(function()
-			{
-				$('.colorbox').colorbox();
-				
-			},1000);
-		}
-
+	function initFlickr() {
 		getAlbunsList(function(data) {
 			var data = data.photosets.photoset;
 			var html = '';
-
 			$.each(data, function(i, item) {
-				html += '<div class="sidebar_flickr">' +
-					'<div class="sidebar_title">' + data[i].title._content + '</div>' +
-					'<div class="flickr_gallery" data-toggle="jsfg" data-per-page="6" data-set-id="' + data[i].id + '"></div>' +
+				html += '<div class="elements_accordions">' +
+					'<div class="accordion_container">' +
+						'<div class="accordion d-flex flex-row align-items-center">' + data[i].title._content + '</div>' +
+						'<div class="accordion_panel">' +
+							'<div class="sidebar_flickr">' +
+								'<div class="flickr_gallery" data-toggle="jsfg" data-per-page="20" data-set-id="' + data[i].id + '"></div>' +
+							'</div>' +
+						'</div>' +
+					'</div>' +
 				'</div>';
 			});
 			$('#section_galleries').html(html);
 			console.log(data);
 			console.log(html);
-			initFlickr();
-		}); 
-	}
+			
+			var script = document.createElement('script');
+			script.src = 'plugins/js-flickr-gallery-1.24/js-flickr-gallery.js';
+			document.getElementsByTagName('head')[0].appendChild(script);
+			
+			if($('.flickr_gallery').length) {
+				setTimeout(function() {
+					$('.colorbox').colorbox();	
+				},1000);
+			}
+
+			initAccordions();
+			$('.accordion')[0].click();
+		});
+	} 
 
 	function getAlbunsList(callback) {
         var settings = {
 			"async": true,
 			"crossDomain": true,
-			"url": "https://api.flickr.com/services/rest/?method=flickr.photosets.getList&api_key=0bab2c9f835eab3d0074b23449c64cac&user_id=114081595%40N06&format=json&nojsoncallback=1&auth_token=72157702512189501-faf6f4b95a3eee76&api_sig=f08f0af9cfb9d98f3c4065bd52f2a6a2",
+			"url": "https://api.flickr.com/services/rest/?method=flickr.photosets.getList&api_key=a5a33efd76cb96534439582cf70a3b0c&user_id=114081595%40N06&format=json&nojsoncallback=1&auth_token=72157700820700022-fd58a860b74544a3&api_sig=54d601c2287e1458f3ab02968a85c172",
 			"method": "GET",
 			"headers": {}
 		}
 
 		$.ajax(settings).done(callback);
     }
+
+	/* 
+
+	6. Init Accordions
+
+	*/
+
+	function initAccordions()
+	{
+		if($('.accordion').length)
+		{
+			var accs = $('.accordion');
+
+			accs.each(function()
+			{
+				var acc = $(this);
+
+				acc.on('click', function()
+				{
+					acc.toggleClass('active');
+					
+					var panel = $(acc.next());
+					var panelH = panel.prop('scrollHeight') + "px";
+					
+					if(panel.css('max-height') == "0px")
+					{
+						//panel.css('max-height', panel.prop('scrollHeight') + "px");
+						panel.css('max-height', "100%");
+					}
+					else
+					{
+						panel.css('max-height', "0px");
+						
+					} 
+				});
+			});
+		}
+	}
 
 });
