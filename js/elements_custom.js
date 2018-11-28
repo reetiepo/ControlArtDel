@@ -51,6 +51,7 @@ $(document).ready(function()
 	initAccordions();
 	initLoaders();
 	initMilestones();
+	initEvents();
 
 	/* 
 
@@ -372,5 +373,20 @@ $(document).ready(function()
 			    .addTo(ctrl);
 	    	});
 		}
+	}
+
+	/*
+
+	9. Init Events
+
+	*/
+
+	function initEvents() {
+		$('.post-module').hover(function() {
+		  $(this).find('.description').stop().animate({
+		    height: "toggle",
+		    opacity: "toggle"
+		  }, 300);
+		});
 	}
 });
