@@ -276,6 +276,12 @@
 	{
 		margin-left: 4px;
 	}
+	.quote .about_text p {
+		font-size: 24px;
+	}
+	.quote .sub_text p {
+		font-size: 12px;
+	}
 }
 
 /************

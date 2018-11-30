@@ -61,7 +61,7 @@
 		<!-- Flickr -->
 
 		<div class="sidebar_section">
-			<div class="sidebar_flickr">
+			<div class="sidebar_flickr popup-gallery">
 				<div class="sidebar_title">Galeria</div>
 				<!-- 
 				Possible values: http://petejank.github.io/js-flickr-gallery/#documentation

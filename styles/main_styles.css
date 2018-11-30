@@ -907,6 +907,10 @@ section
 	background-size: cover;
 	background-position: center center;
 }
+.quote .about_background {
+	width: 100%;
+	left: 0;
+}
 .about_shapes
 {
 	position: absolute;
@@ -962,6 +966,27 @@ section
     text-align: justify;
 }
 
+.quote .about_text p {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #e02689;
+}
+
+.stroke {
+	text-shadow: 1px 1px 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+	-moz-text-shadow: 1px 1px 2px #000;
+	-webkit-text-shadow: 1px 1px 2px #000;	
+}
+
+.quote .sub_text p {
+    text-align: right;
+    color: #000000;
+    font-size: 12px;
+    line-height: 1;
+    font-style: italic;
+}
 .about_text img
 {
 	margin-top: 20px;

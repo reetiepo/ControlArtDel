@@ -321,6 +321,24 @@
 		</div>
 	</div>
 
+	<!-- Dr. Craig Knight -->
+
+	<div class="about quote prlx_parent">
+		<!-- https://unsplash.com/@nativemello -->
+		<div class="about_background prlx" style="background-image:url(images/chillybeans.png); opacity: 0.5;">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="about_text">
+					<p class="stroke">“Se você enriquece um espaço, as pessoas se sentem muito mais felizes e trabalham melhor; uma maneira muito boa de fazer isso é usando arte.”</p>
+					<div class="col-lg-6 offset-lg-6 sub_text">
+						<p>Dr. Craig Knight estudou a psicologia dos ambientes de trabalho por 12 anos na Universidade de Exeter, e hoje lidera um grupo de pesquisa chamado Identity Realization (IDR).</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- Clientes -->
 
 	<div class="clients">

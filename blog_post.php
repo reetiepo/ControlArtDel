@@ -15,6 +15,7 @@
 <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/blog_post_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/blog_post_responsive.css">
+<link rel="stylesheet" type="text/css" href="plugins/magnific-popup/magnific-popup.css">
 </head>
 
 <body>
@@ -235,6 +236,7 @@
 <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="js/blog_post_custom.js"></script>
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 </body>
 
 </html>

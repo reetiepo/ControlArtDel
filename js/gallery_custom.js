@@ -169,7 +169,7 @@ $(document).ready(function()
 					'<div class="accordion_container">' +
 						'<div class="accordion d-flex flex-row align-items-center">' + data[i].title._content + '</div>' +
 						'<div class="accordion_panel">' +
-							'<div class="sidebar_flickr">' +
+							'<div class="sidebar_flickr popup-gallery">' +
 								'<div class="flickr_gallery" data-toggle="jsfg" data-per-page="20" data-set-id="' + data[i].id + '"></div>' +
 							'</div>' +
 						'</div>' +
@@ -184,11 +184,23 @@ $(document).ready(function()
 			script.src = 'plugins/js-flickr-gallery-1.24/js-flickr-gallery.js';
 			document.getElementsByTagName('head')[0].appendChild(script);
 			
-			if($('.flickr_gallery').length) {
-				setTimeout(function() {
-					$('.colorbox').colorbox();	
-				},1000);
-			}
+			$('.popup-gallery').magnificPopup({
+				delegate: 'a',
+				type: 'image',
+				tLoading: 'Loading image #%curr%...',
+				mainClass: 'mfp-img-mobile',
+				gallery: {
+					enabled: true,
+					navigateByImgClick: true,
+					preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+				},
+				image: {
+					tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+					titleSrc: function(item) {
+						return item.el.attr('title') + '<small>by Control Art Del</small>';
+					}
+				}
+			});
 
 			initAccordions();
 			$('.accordion')[0].click();
