@@ -21,60 +21,10 @@
 
 <div class="super_container">
 	
-	<!-- Header -->
-
-	<header class="header d-flex flex-row justify-content-end align-items-center">
-
-		<!-- Logo -->
-		<div class="logo_container mr-auto">
-			<div class="logo">
-				<!-- <a href="#"><span>z</span>zeta<span>.</span></a> -->
-				<a href="#"><img src="images/cad_logo.png" width="150"></a>
-			</div>
-		</div>
-
-		<!-- Main Navigation -->
-		<nav class="main_nav justify-self-end">
-			<ul class="nav_items">
-				<li><a href="index.html"><span>home</span></a></li>
-				<li><a href="galeria.html"><span>galeria</span></a></li>
-				<li><a href="eventos.html"><span>eventos</span></a></li>
-				<li class="active"><a href="blog.html"><span>blog</span></a></li>
-				<li><a href="contato.html"><span>contato</span></a></li>
-			</ul>
-		</nav>
-
-		<!-- Hamburger -->
-		<div class="hamburger_container">
-			<span class="hamburger_text">Menu</span>
-			<span class="hamburger_icon"></span>
-		</div>
-
-	</header>
-
-	<!-- Menu -->
-
-	<div class="fs_menu_overlay"></div>
-	<div class="fs_menu_container">
-		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
-		<nav class="fs_menu_nav">
-			<ul class="fs_menu_list">
-				<li><a href="index.html"><span><span>H</span>Home</span></a></li>
-				<li><a href="galeria.html"><span><span>G</span>Galeria</span></a></li>
-				<li><a href="eventos.html"><span><span>E</span>Eventos</span></a></li>
-				<li><a href="blog.html"><span><span>B</span>Blog</span></a></li>
-				<li><a href="contato.html"><span><span>C</span>Contato</span></a></li>
-			</ul>
-		</nav>
-		<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
-			<ul class="fs_social">
-				<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/"><i class="fab fa-facebook-f trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-				<li><a href="https://www.instagram.com/controlartdel/"><i class="fab fa-instagram trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-			</ul>
-		</div>
-	</div>
+	<?php
+		$pag_ativa = 'blog';
+		include "componentes/header.php";
+	?>
 
 	<!-- Page Top -->
 
@@ -88,23 +38,16 @@
 				<div class="col-lg-6">
 					<div class="home_content">
 						<h1>Blog</h1>
-						<span>leia nossos posts</span>
+						<span>Notícias e conteúdos sobre o mundo da arte</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Home Social -->
-	
-	<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
-		<ul class="home_social">
-			<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/"><i class="fab fa-facebook-f trans_300"></i></a></li>
-			<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-			<li><a href="https://www.instagram.com/controlartdel/"><i class="fab fa-instagram trans_300"></i></a></li>
-			<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-		</ul>
-	</div>
+	<?php
+		include "componentes/home_social.php";
+	?>
 
 	<!-- Blog Content -->
 
@@ -208,7 +151,7 @@
 											<div class="blog_post_comment_text">
 												<p>Aliquam ipsum nibh, imperdiet in euismod et, lobortis id elit. Mauris ornare metus a orci tristique, quis semper turpis sollicitudin. Phasellus porta enim risus, sit amet vestibulum leo feugiat quis. Proin ac euismod augue.</p>
 											</div>
-											<a href="blog_post.html" class="blog_post_link">reply
+											<a href="blog_post.php" class="blog_post_link">reply
 												<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
 												<polygon id="arrow_poly_1" class="arrow_poly" fill="#e02689" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
 												</svg>
@@ -227,7 +170,7 @@
 											<div class="blog_post_comment_text">
 												<p>Aliquam ipsum nibh, imperdiet in euismod et, lobortis id elit. Mauris ornare metus a orci tristique, quis semper turpis sollicitudin. Phasellus porta enim risus, sit amet vestibulum leo feugiat quis. Proin ac euismod augue.</p>
 											</div>
-											<a href="blog_post.html" class="blog_post_link">reply
+											<a href="blog_post.php" class="blog_post_link">reply
 												<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
 												<polygon id="arrow_poly_2" class="arrow_poly" fill="#e02689" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
 												</svg>
@@ -289,10 +232,10 @@
 								<!-- Recent Post -->
 								<div class="recent_post d-flex flex-row justify-content-start">
 									<div class="recent_post_image">
-										<a href="blog_post.html"><img src="images/blog_1.jpg" alt=""></a>
+										<a href="blog_post.php"><img src="images/blog_1.jpg" alt=""></a>
 									</div>
 									<div class="recent_post_content">
-										<h4 class="recent_post_title"><a href="blog_post.html">Evento - Arte no Baixo</a></h4>
+										<h4 class="recent_post_title"><a href="blog_post.php">Evento - Arte no Baixo</a></h4>
 										<span class="recent_post_date">novembro 25, 2018</span>
 									</div>
 								</div>
@@ -310,112 +253,6 @@
 							</div>
 						</div>
 
-						<!-- Tabs -->
-						<!-- <div class="sidebar_section">
-							<div class="sidebar_tabs">
-
-								<!-- Tabs Nav - ->
-								<div class="tabs_container">
-									<ul class="tabs">
-										<li class="tab active" data-active-tab="tab_1"><span>popular</span></li>
-										<li class="tab" data-active-tab="tab_2"><span>comments</span></li>
-									</ul>
-								</div>
-								
-								<!-- Tab Containers - ->
-								<div id="tab_1" class="tab_container active">
-
-									<!-- Popular - ->
-									<div class="sidebar_popular">
-
-										<!-- Popular Post - ->
-										<div class="popular_post d-flex flex-row justify-content-start">
-											<div class="popular_post_image">
-												<a href="blog_post.html"><img src="images/popular_1.jpg" alt="https://unsplash.com/@cbarbalis"></a>
-											</div>
-											<div class="popular_post_content">
-												<h4 class="popular_post_title"><a href="blog_post.html">best in photography</a></h4>
-												<span class="popular_post_date">december 05, 2017</span>
-											</div>
-										</div>
-
-										<!-- Popular Post - ->
-										<div class="popular_post d-flex flex-row justify-content-start">
-											<div class="popular_post_image">
-												<a href="blog_post.html"><img src="images/popular_2.jpg" alt="https://unsplash.com/@alexagorn"></a>
-											</div>
-											<div class="popular_post_content">
-												<h4 class="popular_post_title"><a href="blog_post.html">best in photography</a></h4>
-												<span class="popular_post_date">december 05, 2017</span>
-											</div>
-										</div>
-
-										<!-- Popular Post - ->
-										<div class="popular_post d-flex flex-row justify-content-start">
-											<div class="popular_post_image">
-												<a href="blog_post.html"><img src="images/popular_3.jpg" alt="https://unsplash.com/@thonbarroro"></a>
-											</div>
-											<div class="popular_post_content">
-												<h4 class="popular_post_title"><a href="blog_post.html">best in photography</a></h4>
-												<span class="popular_post_date">december 05, 2017</span>
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-								<div id="tab_2" class="tab_container">
-									
-									<!-- Comments - ->
-									<div class="sidebar_comments">
-										
-										<!-- Comment - ->
-										<div class="comment d-flex flex-row justify-content-start">
-											<div class="comment_icon">
-												<i class="far fa-comment"></i>
-											</div>
-											<div class="comment_content">
-												<p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum.</p>
-												<div class="comment_meta">
-													<span>by lore papp</span>
-													<span>december 06 2017</span>
-												</div>
-											</div>
-										</div>
-
-										<!-- Comment - ->
-										<div class="comment d-flex flex-row justify-content-start">
-											<div class="comment_icon">
-												<i class="far fa-comment"></i>
-											</div>
-											<div class="comment_content">
-												<p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum.</p>
-												<div class="comment_meta">
-													<span>by lore papp</span>
-													<span>december 06 2017</span>
-												</div>
-											</div>
-										</div>
-
-										<!-- Comment - ->
-										<div class="comment d-flex flex-row justify-content-start">
-											<div class="comment_icon">
-												<i class="far fa-comment"></i>
-											</div>
-											<div class="comment_content">
-												<p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum.</p>
-												<div class="comment_meta">
-													<span>by lore papp</span>
-													<span>december 06 2017</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-							</div>
-						</div> -->
-
 						<!-- Flickr -->
 
 						<div class="sidebar_section">
@@ -427,170 +264,25 @@
 								-->
 								<div class="flickr_gallery" data-toggle="jsfg" data-per-page="6" data-user-id="114081595@N06"></div>
 
-								<a href="galeria.html" class="blog_post_link">ver mais fotos
+								<a href="galeria.php" class="blog_post_link">ver mais fotos
 									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
 									<polygon id="arrow_poly_1" class="arrow_poly" fill="#e02689" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
 									</svg>
 								</a>
 							</div>
 						</div>
-
-						<!-- Gallery -->
-
-						<!-- <div class="sidebar_section">
-							<div class="sidebar_gallery">
-								<div class="sidebar_title">gallery</div>
-
-								<ul class="gallery_items">
-
-									<!-- Gallery Item - ->
-									<li class="gallery_item">
-										<a href="images/gallery_1_large.jpg">
-											<img src="images/gallery_1.jpg" alt="">
-										</a>
-									</li>
-
-									<!-- Gallery Item - ->
-									<li class="gallery_item">
-										<a href="images/gallery_2_large.jpg">
-											<img src="images/gallery_2.jpg" alt="">
-										</a>
-									</li>
-
-									<!-- Gallery Item - ->
-									<li class="gallery_item">
-										<a href="images/gallery_3_large.jpg">
-											<img src="images/gallery_3.jpg" alt="">
-										</a>
-									</li>
-
-									<!-- Gallery Item - ->
-									<li class="gallery_item">
-										<a href="images/gallery_4_large.jpg">
-											<img src="images/gallery_4.jpg" alt="">
-										</a>
-									</li>
-
-									<!-- Gallery Item - ->
-									<li class="gallery_item">
-										<a href="images/gallery_5_large.jpg">
-											<img src="images/gallery_5.jpg" alt="">
-										</a>
-									</li>
-
-									<!-- Gallery Item - ->
-									<li class="gallery_item">
-										<a href="images/gallery_6_large.jpg">
-											<img src="images/gallery_6.jpg" alt="">
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div> -->
-
-						<!-- Quote -->
-
-						<!-- <div class="sidebar_section">
-							<div class="sidebar_quote">
-								<div class="sidebar_title">quote of the day</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur neque non.</p>
-							</div>
-						</div> -->
-
-						<!-- Slider -->
-
-						<!-- <div class="sidebar_section">
-							<div class="sidebar_slider_container">
-								<div class="sidebar_title">slider</div>
-								<div class="owl-carousel owl-theme sidebar_slider">
-
-									<!-- Slider Item - ->
-									<div class="owl-item sidebar_slider_item">
-										<div class="sidebar_slider_item_background" style="background-image:url(images/sidebar_slider_1.jpg)"></div>
-									</div>
-
-									<!-- Slider Item - ->
-									<div class="owl-item sidebar_slider_item">
-										<div class="sidebar_slider_item_background" style="background-image:url(images/sidebar_slider_2.jpg)"></div>
-									</div>
-
-									<!-- Slider Item - ->
-									<div class="owl-item sidebar_slider_item">
-										<div class="sidebar_slider_item_background" style="background-image:url(images/sidebar_slider_3.jpg)"></div>
-									</div>
-								</div>
-							</div>
-						</div> -->
-
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-	<!-- Newsletter -->
-
-	<div class="newsletter prlx_parent">
-		<div class="newsletter_background prlx" style="background-image:url(images/newsletter.jpg); opacity: .5;"></div>
-		<div class="container">
-
-			<div class="row">
-				<div class="col-lg-6 offset-lg-3 text-center section_title newsletter_title">
-					<h2>newsletter<span>cad</span></h2>
-				</div>
-			</div>
-			<div class="row">
-				<form class="d-flex flex-row align-items-center justify-content-center newsletter_form">
-				   	<input class="newsletter_email" type="text" placeholder="meuemail@exemplo.com.br">
-				    <div class="button newsletter_button">
-						<a href="contato.html" class="d-flex flex-row align-items-center justify-content-center">inscrever-se<img src="images/arrow_right.svg" alt=""></a>
-					</div>
-				</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-
-	<footer class="footer">
-		<div class="footer_container">
-			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
-				<div class="col-sm-8 text-sm-left text-center footer_info">
-					<i class="fas fa-map-marker-alt trans_300"></i> 
-					Alameda dos Nhambiquaras, 1770 - Conj. 1.102 - Moema, São Paulo - SP
-					<br>
-					<a href="mailto:atendimento@controlartdel.com.br">
-						<i class="fas fa-envelope trans_300"></i> 
-						atendimento@controlartdel.com.br
-					</a>
-					<br>
-					<a href="tel:5511988005196">
-						<i class="fas fa-phone trans_300"></i> 
-						+55 11 98800 5196
-					</a>
-				</div>
-				<div class="col-sm-4 text-sm-right text-center">
-					<div class="footer_social_container">
-						<ul class="footer_social">
-							<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/"><i class="fab fa-facebook-f trans_300"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-							<li><a href="https://www.instagram.com/controlartdel/"><i class="fab fa-instagram trans_300"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
-	<div class="cr">
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		<span>
-		 	Adaptado de <a href="https://colorlib.com" target="_blank">Colorlib</a> <i class="fa fa-heart" aria-hidden="true"></i>
-		</span>
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 	</div>
+	
+	<?php
+
+		include "componentes/newsletter.php";
+		include "componentes/footer.php";
+
+	?>
 
 </div>
 

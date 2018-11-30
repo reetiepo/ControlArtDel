@@ -19,61 +19,10 @@
 
 <div class="super_container">
 	
-	<!-- Header -->
-
-	<header class="header d-flex flex-row justify-content-end align-items-center">
-
-		<!-- Logo -->
-		<div class="logo_container mr-auto">
-			<div class="logo">
-				<!-- <a href="#"><span>z</span>zeta<span>.</span></a> -->
-				<a href="#"><img src="images/cad_logo.png" width="150"></a>
-			</div>
-		</div>
-
-		<!-- Main Navigation -->
-		<nav class="main_nav justify-self-end">
-			<ul class="nav_items">
-				<li class="active"><a href="index.html"><span>home</span></a></li>
-				<li><a href="galeria.html"><span>galeria</span></a></li>
-				<li><a href="eventos.html"><span>eventos</span></a></li>
-				<li><a href="blog.html"><span>blog</span></a></li>
-				<li><a href="contato.html"><span>contato</span></a></li>
-			</ul>
-		</nav>
-
-		<!-- Hamburger -->
-		<div class="hamburger_container">
-			<span class="hamburger_text">Menu</span>
-			<span class="hamburger_icon"></span>
-		</div>
-
-	</header>
-
-	<!-- Menu -->
-
-	<div class="fs_menu_overlay"></div>
-	<div class="fs_menu_container">
-		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
-		<nav class="fs_menu_nav">
-			<ul class="fs_menu_list">
-				<li><a href="index.html"><span><span>H</span>Home</span></a></li>
-				<li><a href="galeria.html"><span><span>G</span>Galeria</span></a></li>
-				<li><a href="eventos.html"><span><span>E</span>Eventos</span></a></li>
-				<li><a href="blog.html"><span><span>B</span>Blog</span></a></li>
-				<li><a href="contato.html"><span><span>C</span>Contato</span></a></li>
-			</ul>
-		</nav>
-		<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
-			<ul class="fs_social">
-				<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/"><i class="fab fa-facebook-f trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-				<li><a href="https://www.instagram.com/controlartdel/"><i class="fab fa-instagram trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-			</ul>
-		</div>
-	</div>
-
+	<?php
+		$pag_ativa = 'home';
+		include "componentes/header.php";
+	?>
 	<!-- Hero Slider -->
 	
 	<div class="home">
@@ -88,9 +37,6 @@
 							<div class="col slider_content_col">
 								<div class="main_slider_content">
 									<div class="bg_text_slider">
-										<!-- <h1><span>Por que</span> investir</h1>
-										<h1>em <span>arte?</span></h1>
-										<p>A presença de arte no ambiente corporativo ajuda a aumentar a criatividade e produtividade, contribuindo também para a redução do stress e para a apreciação da diversidade.</p> -->
 										<h1><span>Cultura</span> organizacional</h1>
 										<p>A presença de arte no ambiente corporativo demonstra a preocupação das empresas com o bem-estar de seus colaboradores e clientes.</p>
 									</div>
@@ -108,11 +54,9 @@
 							<div class="col slider_content_col">
 								<div class="main_slider_content">
 									<div class="bg_text_slider">
-										<!-- <h1>Ocupar esse</h1>
-										<h1><span>espaço</span></h1>
-										<p>Foi para ocupar esse espaço no mercado e trazer mais arte ao ambiente corporativo que a Control ART Del foi criada.</p> -->
-										<h1>Espaços <span>inspiradores</span></h1>
-										<p>Locais de trabalho enriquecidos com arte promovem criatividade, produtividade e motivação.</p>
+										<h1><span>Por que</span> investir</h1>
+										<h1>em <span>arte?</span></h1>
+										<p>Usamos arte para tornar ambientes de trabalho mais inspiradores, motivadores e produtivos.</p>
 									</div>
 								</div>
 							</div>
@@ -128,8 +72,6 @@
 							<div class="col slider_content_col">
 								<div class="main_slider_content">
 									<div class="bg_text_slider">
-										<!-- <h1>A <span>arte</span> também</h1>
-										<p>Aumenta a exposição da marca, traz uma comunicação única, gera oportunidades de publicidade e pode alcançar novos públicos.</p> -->
 										<h1><span>Identidade</span> corporativa</h1>
 										<p>A arte pode ser usada como estratégia criativa para aumentar a exposição da marca e expressar seus valores.</p>
 									</div>
@@ -169,17 +111,9 @@
 		</div>
 	</div>
 
-	<!-- Home Social -->
-	
-	<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
-		<ul class="home_social">
-			<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/"><i class="fab fa-facebook-f trans_300"></i></a></li>
-			<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-			<li><a href="https://www.instagram.com/controlartdel/"><i class="fab fa-instagram trans_300"></i></a></li>
-			<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-		</ul>
-	</div>
-
+	<?php
+		include "componentes/home_social.php";
+	?>
 
 	<!-- Features -->
 
@@ -190,12 +124,84 @@
 				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
-						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/icon_6.svg" alt="">
+							<img src="images/artistas.svg" alt="">
 						</div>
-						<h3>Arte</h3>
-						<p>Se você enriquece um espaço, as pessoas se sentem muito mais felizes e trabalham melhor. Uma boa maneira de fazer isso é usando arte.</p>
+						<h3>Artistas</h3>
+						<p>Estamos em busca constante para reunir muralistas nacionais de grande potencial artístico, com linhas de trabalho complementares.</p>
+					</div>
+				</div>
+				
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/criacao.svg" alt="">
+						</div>
+						<h3>Criação</h3>
+						<p>Nossa essência é construída em torno de um princípio básico: ajudar os artistas que representamos a serem criadores.</p>
+					</div>
+				</div>
+				
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/solucoes.svg" alt="">
+						</div>
+						<h3>Soluções</h3>
+						<p>Conseguimos antever soluções, antes mesmo do trabalho ser executado e saber se a sua ideia pode ser realizada dentro do prazo e orçamento desejados.</p>
+					</div>
+				</div>
+
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/consultoria.svg" alt="">
+						</div>
+						<h3>Consultoria</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/workshops.svg" alt="">
+						</div>
+						<h3>Workshops</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/eventos.svg" alt="">
+						</div>
+						<h3>Eventos</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/corporativo.svg" alt="">
+						</div>
+						<h3>Corporativo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 				</div>
 				
@@ -206,23 +212,22 @@
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/icon_1.svg" alt="">
 						</div>
-						<h3>Estratégia</h3>
-						<p>Além de contribuir para o enriquecimento do ambiente, as marcas podem fazer um trabalho estratégico de branding e merchandising.</p>
+						<h3>Varejo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 				</div>
 				
 				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/icon_5.svg" alt="">
+							<img src="images/produtos.svg" alt="">
 						</div>
-						<h3>Inspiração</h3>
-						<p>Nosso propósito é entregar projetos inspiradores que emanam criatividade, e conectam artistas incríveis a empresas interessadas.</p>
+						<h3>Produtos</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
@@ -247,12 +252,11 @@
 
 						<p>Nosso trabalho é criar conexões entre artistas talentosos e projetos que se identificam com eles.</p>
 
-						<!-- <p>Trabalhamos junto aos nossos clientes para concretizar suas ideias e projetos através de um processo natural e criativo.</p>
-						
-						<p>Caso não tenha ideia, sem problemas.</p>
-						<p><span class="test_quote">"Acreditamos que a arte e o ambiente corporativo possam coexistir de uma maneira vantajosa para ambos."</span></p>
-						
-						<p>Mas para isso acontecer, é necessário um agente organizado e inovador.</p> -->
+						<p>Tem uma ideia e gostaria de colocá-la nas paredes?<br>
+						Ainda não sabe qual estilo artístico melhor se enquadra na identidade de sua marca?<br>
+						Gostaria de trabalhar com um artista específico mas não sabe como chegar até ele?
+
+						<p>Nossa equipe é multidisciplinar e está preparada para tirar suas ideias do papel.</p>
 					</div>
 				</div>
 			</div>
@@ -269,72 +273,78 @@
 				</div>
 			</div>
 			<div class="team_row align-items-center justify-content-center">
-				<!-- Normal Demo-->
-				<div class="column">
-					<!-- Post-->
-					<div class="post-module">
-						<!-- Thumbnail-->
-						<div class="thumbnail">
-							<img src="images/team_1.png"/>
-						</div>
-						<!-- Post Content-->
-						<div class="post-content">
-							<div class="category">CEO</div>
-							<h1 class="title">Renattoo Arts</h1>
-							<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-						</div>
-					</div>
-				</div>
+			<?php
 
-				<!-- Normal Demo-->
-				<div class="column">
-					<!-- Post-->
-					<div class="post-module">
-						<!-- Thumbnail-->
-						<div class="thumbnail">
-							<img src="images/team_2.png"/>
-						</div>
-						<!-- Post Content-->
-						<div class="post-content">
-							<div class="category">Consultor de Arte</div>
-							<h1 class="title">Arthur Uzum</h1>
-							<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-						</div>
-					</div>
-				</div>
+				$team_array = array(
+					1 => array(
+					'foto' => 'team_renatto.png',
+					'cargo' => 'CEO',
+					'nome' => 'Renatto Arts',
+					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
+					2 => array(
+					'foto' => 'team_arthur.png',
+					'cargo' => 'Consultor de Arte',
+					'nome' => 'Arthur Uzum',
+					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
+					3 => array(
+					'foto' => 'team_victor.png',
+					'cargo' => 'Gerente Comercial',
+					'nome' => 'Victor',
+					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
+					4 => array(
+					'foto' => 'team_raquel.png',
+					'cargo' => 'Publicitária',
+					'nome' => 'Raquel Ernesto',
+					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.')
+				);
 
-				<!-- Normal Demo-->
-				<div class="column">
-					<!-- Post-->
-					<div class="post-module">
-						<!-- Thumbnail-->
-						<div class="thumbnail">
-							<img src="images/team_3.png"/>
-						</div>
-						<!-- Post Content-->
-						<div class="post-content">
-							<div class="category">Gerente Comercial</div>
-							<h1 class="title">Victor</h1>
-							<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-						</div>
-					</div>
-				</div>
+				$numbers = range(1, 4);
+				shuffle($numbers);
+				foreach ($numbers as $number) {
+					echo '<!-- Team -->';
+					echo '<div class="column">';
+					echo '<!-- Post-->';
+					echo '<div class="post-module">';
+					echo '<!-- Thumbnail-->';
+					echo '<div class="thumbnail">';
+					echo '<img src="images/'.$team_array[$number]['foto'].'"/>';
+					echo '</div>';
+					echo '<!-- Post Content-->';
+					echo '<div class="post-content">';
+					echo '<div class="category">'.$team_array[$number]['cargo'].'</div>';
+					echo '<h1 class="title">'.$team_array[$number]['nome'].'</h1>';
+					echo '<p class="description">'.$team_array[$number]['descricao'].'</p>';
+					echo '</div>';
+					echo '</div>';
+					echo '</div>';
+				}
+			?>
+			</div>
+		</div>
+	</div>
 
-				<!-- Normal Demo-->
-				<div class="column">
-					<!-- Post-->
-					<div class="post-module">
-						<!-- Thumbnail-->
-						<div class="thumbnail">
-							<img src="images/team_4.png"/>
-						</div>
-						<!-- Post Content-->
-						<div class="post-content">
-							<div class="category">Publicitária</div>
-							<h1 class="title">Raquel Ernesto</h1>
-							<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-						</div>
-					</div>
+	<!-- Clientes -->
+
+	<div class="clients">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
+					<h2>nossos clientes<span>cad</span></h2>
+				</div>
+			</div>
+			<div class="clients_row align-items-center justify-content-center text-center">
+				<div class="clients_item d-flex flex-column align-items-center justify-content-center text-center">
+					<img src="images/client_1.png" alt="">
+				</div>
+				<div class="clients_item d-flex flex-column align-items-center justify-content-center text-center">
+					<img src="images/client_2.png" alt="">
+				</div>
+				<div class="clients_item d-flex flex-column align-items-center justify-content-center text-center">
+					<img src="images/client_3.png" alt="">
+				</div>
+				<div class="clients_item d-flex flex-column align-items-center justify-content-center text-center">
+					<img src="images/client_4.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -342,7 +352,7 @@
 
 	<!-- Processo -->
 
-	<div class="testimonials">
+	<!-- <div class="testimonials">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
@@ -354,11 +364,11 @@
 					<div class="testimonials_container">
 						<div class="testimonials_container_inner"></div>
 
-						<!-- Processo Slider -->
+						<!-- Processo Slider - ->
 
 						<div class="owl-carousel owl-theme testimonials_slider">
 
-							<!-- Processo Item -->
+							<!-- Processo Item - ->
 							<div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
 								<div class="testimonials_content">
 									<div class="test_user_pic"><img src="images/process_connection.png" alt="https://unsplash.com/@michaeldam"></div>
@@ -373,7 +383,7 @@
 								</div>
 							</div>
 
-							<!-- Processo Item -->
+							<!-- Processo Item - ->
 							<div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
 								<div class="testimonials_content">
 									<div class="test_user_pic"><img src="images/process_artists.png" alt="https://unsplash.com/@michaeldam"></div>
@@ -393,7 +403,7 @@
 								</div>
 							</div>
 
-							<!-- Processo Item -->
+							<!-- Processo Item - ->
 							<div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
 								<div class="testimonials_content">
 									<div class="test_user_pic"><img src="images/process_value.png" alt="https://unsplash.com/@michaeldam"></div>
@@ -413,7 +423,7 @@
 								</div>
 							</div>
 
-							<!-- Processo Item -->
+							<!-- Processo Item - ->
 							<div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
 								<div class="testimonials_content">
 									<div class="test_user_pic"><img src="images/process_briefing.png" alt="https://unsplash.com/@michaeldam"></div>
@@ -433,7 +443,7 @@
 								</div>
 							</div>
 
-							<!-- Processo Item -->
+							<!-- Processo Item - ->
 							<div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
 								<div class="testimonials_content">
 									<div class="test_user_pic"><img src="images/process_creation.png" alt="https://unsplash.com/@michaeldam"></div>
@@ -451,7 +461,7 @@
 								</div>
 							</div>
 
-							<!-- Processo Item -->
+							<!-- Processo Item - ->
 							<div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
 								<div class="testimonials_content">
 									<div class="test_user_pic"><img src="images/process_postart.png" alt="https://unsplash.com/@michaeldam"></div>
@@ -474,7 +484,7 @@
 					</div>
 				</div>
 
-				<!-- Testimonials Slider Navigation -->
+				<!-- Testimonials Slider Navigation - ->
 
 				<div class="test_slider_nav test_slider_nav_left d-flex flex-column justify-content-center align-items-center trans_200">
 					<i class="fas fa-chevron-left trans_200"></i>
@@ -486,70 +496,14 @@
 
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	<!-- Newsletter -->
+	<?php
 
-	<div class="newsletter prlx_parent">
-		<div class="newsletter_background prlx" style="background-image:url(images/newsletter.jpg); opacity: .5;"></div>
-		<div class="container">
+		include "componentes/newsletter.php";
+		include "componentes/footer.php";
 
-			<div class="row">
-				<div class="col-lg-6 offset-lg-3 text-center section_title newsletter_title">
-					<h2>newsletter<span>cad</span></h2>
-				</div>
-			</div>
-			<div class="row">
-				<form class="d-flex flex-row align-items-center justify-content-center newsletter_form">
-				   	<input class="newsletter_email" type="text" placeholder="meuemail@exemplo.com.br">
-				    <div class="button newsletter_button">
-						<a href="contato.html" class="d-flex flex-row align-items-center justify-content-center">inscrever-se<img src="images/arrow_right.svg" alt=""></a>
-					</div>
-				</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-
-	<footer class="footer">
-		<div class="footer_container">
-			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
-				<div class="col-sm-8 text-sm-left text-center footer_info">
-					<i class="fas fa-map-marker-alt trans_300"></i> 
-					Alameda dos Nhambiquaras, 1770 - Conj. 1.102 - Moema, São Paulo - SP
-					<br>
-					<a href="mailto:atendimento@controlartdel.com.br">
-						<i class="fas fa-envelope trans_300"></i> 
-						atendimento@controlartdel.com.br
-					</a>
-					<br>
-					<a href="tel:5511988005196">
-						<i class="fas fa-phone trans_300"></i> 
-						+55 11 98800 5196
-					</a>
-				</div>
-				<div class="col-sm-4 text-sm-right text-center">
-					<div class="footer_social_container">
-						<ul class="footer_social">
-							<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/"><i class="fab fa-facebook-f trans_300"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-							<li><a href="https://www.instagram.com/controlartdel/"><i class="fab fa-instagram trans_300"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<div class="cr">
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		<span>
-		 	Adaptado de <a href="https://colorlib.com" target="_blank">Colorlib</a> <i class="fa fa-heart" aria-hidden="true"></i>
-		</span>
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	</div>
+	?>
 
 </div>
 

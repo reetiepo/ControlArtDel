@@ -1167,8 +1167,8 @@ section
 
 .event
 {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	z-index: 2;
 }
 .event_row {
@@ -1300,7 +1300,7 @@ section
   line-height: 1.8em;
 }
 .event .post-module .post-content .post-meta {
-  margin: 30px 0 0;
+  /*margin: 30px 0 0;*/
   color: #e02689;
   font-size: 14px;
   line-height: 1.8em;

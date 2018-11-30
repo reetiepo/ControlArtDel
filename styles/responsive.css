@@ -473,16 +473,11 @@
 	{
 		height: calc(100vh - 90px);
 	}
-	.features
-	{
-		padding-top: 120px;
-		padding-bottom: 120px;
-	}
 	.features_col
 	{
 		padding-top: 0px;
 		padding-bottom: 0px;
-		margin-bottom: 60px;
+		margin-bottom: 50px;
 	}
 	.features_col:last-child
 	{
@@ -492,6 +487,7 @@
 	.features_item p
 	{
 		margin-top: 18px;
+		height: 100px;
 	}
 	.features_item img
 	{

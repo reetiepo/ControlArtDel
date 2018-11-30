@@ -21,60 +21,10 @@
 
 <div class="super_container">
 	
-	<!-- Header -->
-
-	<header class="header d-flex flex-row justify-content-end align-items-center">
-
-		<!-- Logo -->
-		<div class="logo_container mr-auto">
-			<div class="logo">
-				<!-- <a href="#"><span>z</span>zeta<span>.</span></a> -->
-				<a href="#"><img src="images/cad_logo.png" width="150"></a>
-			</div>
-		</div>
-
-		<!-- Main Navigation -->
-		<nav class="main_nav justify-self-end">
-			<ul class="nav_items">
-				<li><a href="index.html"><span>home</span></a></li>
-				<li><a href="galeria.html"><span>galeria</span></a></li>
-				<li><a href="eventos.html"><span>eventos</span></a></li>
-				<li><a href="blog.html"><span>blog</span></a></li>
-				<li class="active"><a href="contato.html"><span>contato</span></a></li>
-			</ul>
-		</nav>
-
-		<!-- Hamburger -->
-		<div class="hamburger_container">
-			<span class="hamburger_text">Menu</span>
-			<span class="hamburger_icon"></span>
-		</div>
-
-	</header>
-
-	<!-- Menu -->
-
-	<div class="fs_menu_overlay"></div>
-	<div class="fs_menu_container">
-		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
-		<nav class="fs_menu_nav">
-			<ul class="fs_menu_list">
-				<li><a href="index.html"><span><span>H</span>Home</span></a></li>
-				<li><a href="galeria.html"><span><span>G</span>Galeria</span></a></li>
-				<li><a href="eventos.html"><span><span>E</span>Eventos</span></a></li>
-				<li><a href="blog.html"><span><span>B</span>Blog</span></a></li>
-				<li><a href="contato.html"><span><span>C</span>Contato</span></a></li>
-			</ul>
-		</nav>
-		<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
-			<ul class="fs_social">
-				<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/"><i class="fab fa-facebook-f trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-				<li><a href="https://www.instagram.com/controlartdel/"><i class="fab fa-instagram trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-			</ul>
-		</div>
-	</div>
+	<?php
+		$pag_ativa = 'contato';
+		include "componentes/header.php";
+	?>
 
 	<!-- Home -->
 
@@ -103,6 +53,10 @@
 		</ul>
 	</div>
 
+	<?php
+		include "componentes/home_social.php";
+	?>
+
 	<!-- Contact Content -->
 
 	<div class="contact_content">
@@ -113,7 +67,7 @@
 				<div class="col-lg-8">
 					<div class="contact_main_content">
 
-						<div class="contact_subtitle">fale conosco</div>
+						<div class="contact_subtitle">como podemos ajudar?</div>
 						
 						<!-- Contact Us Form -->
 						<div class="contact_form_container">
@@ -182,68 +136,12 @@
 		</div>
 	</div>
 
-	<!-- Newsletter -->
+	<?php
 
-	<div class="newsletter prlx_parent">
-		<div class="newsletter_background prlx" style="background-image:url(images/newsletter.jpg); opacity: .5;"></div>
-		<div class="container">
+		include "componentes/newsletter.php";
+		include "componentes/footer.php";
 
-			<div class="row">
-				<div class="col-lg-6 offset-lg-3 text-center section_title newsletter_title">
-					<h2>newsletter<span>cad</span></h2>
-				</div>
-			</div>
-			<div class="row">
-				<form class="d-flex flex-row align-items-center justify-content-center newsletter_form">
-				   	<input class="newsletter_email" type="text" placeholder="meuemail@exemplo.com.br">
-				    <div class="button newsletter_button">
-						<a href="contato.html" class="d-flex flex-row align-items-center justify-content-center">inscrever-se<img src="images/arrow_right.svg" alt=""></a>
-					</div>
-				</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-
-	<footer class="footer">
-		<div class="footer_container">
-			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
-				<div class="col-sm-8 text-sm-left text-center footer_info">
-					<i class="fas fa-map-marker-alt trans_300"></i> 
-					Alameda dos Nhambiquaras, 1770 - Conj. 1.102 - Moema, São Paulo - SP
-					<br>
-					<a href="mailto:atendimento@controlartdel.com.br">
-						<i class="fas fa-envelope trans_300"></i> 
-						atendimento@controlartdel.com.br
-					</a>
-					<br>
-					<a href="tel:5511988005196">
-						<i class="fas fa-phone trans_300"></i> 
-						+55 11 98800 5196
-					</a>
-				</div>
-				<div class="col-sm-4 text-sm-right text-center">
-					<div class="footer_social_container">
-						<ul class="footer_social">
-							<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/"><i class="fab fa-facebook-f trans_300"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-							<li><a href="https://www.instagram.com/controlartdel/"><i class="fab fa-instagram trans_300"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<div class="cr">
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		<span>
-		 	Adaptado de <a href="https://colorlib.com" target="_blank">Colorlib</a> <i class="fa fa-heart" aria-hidden="true"></i>
-		</span>
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	</div>
+	?>
 
 </div>
 
