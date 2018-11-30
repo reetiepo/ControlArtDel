@@ -199,7 +199,7 @@ $(document).ready(function()
         var settings = {
 			"async": true,
 			"crossDomain": true,
-			"url": "https://api.flickr.com/services/rest/?method=flickr.photosets.getList&api_key=a5a33efd76cb96534439582cf70a3b0c&user_id=114081595%40N06&format=json&nojsoncallback=1&auth_token=72157700820700022-fd58a860b74544a3&api_sig=54d601c2287e1458f3ab02968a85c172",
+			"url": "https://api.flickr.com/services/rest/?method=flickr.photosets.getList&api_key=ff88e61b776f726e4cb4116482a242ab&user_id=114081595%40N06&format=json&nojsoncallback=1",
 			"method": "GET",
 			"headers": {}
 		}

@@ -96,8 +96,8 @@
 			                <!-- <div class="category">Photos</div> -->
 			                <h1 class="title">City Lights in New York</h1>
 			                <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-			                <div class="post-meta"><i class="fa fa-info-circle trans_300" aria-hidden="true"></i> mais informações</div>
-			                <div class="post-meta"><i class="fa fa-camera trans_300" aria-hidden="true"></i> veja as fotos</div>
+			                <a href="blog_post.php"><div class="post-meta"><i class="fa fa-info-circle trans_300" aria-hidden="true"></i> mais informações</div></a>
+			                <a href="galeria.php"><div class="post-meta"><i class="fa fa-camera trans_300" aria-hidden="true"></i> veja as fotos</div></a>
 			            </div>
 			        </div>
 			    </div>
@@ -116,8 +116,8 @@
 			                <!-- <div class="category">Photos</div> -->
 			                <h1 class="title">City Lights in New York</h1>
 			                <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-			                <div class="post-meta"><i class="fa fa-info-circle trans_300" aria-hidden="true"></i> mais informações</div>
-			                <div class="post-meta"><i class="fa fa-camera trans_300" aria-hidden="true"></i> veja as fotos</div>
+			                <a href="blog_post.php"><div class="post-meta"><i class="fa fa-info-circle trans_300" aria-hidden="true"></i> mais informações</div></a>
+			                <a href="galeria.php"><div class="post-meta"><i class="fa fa-camera trans_300" aria-hidden="true"></i> veja as fotos</div></a>
 			            </div>
 			        </div>
 			    </div>

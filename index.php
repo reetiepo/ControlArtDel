@@ -26,7 +26,7 @@
 	<!-- Hero Slider -->
 	
 	<div class="home">
-		<div class="hero_slider_container slider_prlx">
+		<div class="hero_slider_container">
 			<div class="owl-carousel owl-theme hero_slider">
 
 				<!-- Slider Item -->
@@ -83,7 +83,6 @@
 			</div>
 
 			<!-- Slider Dots -->
-
 			<div class="main_slider_dots">
 				<div class="container">
 					<div class="row">
@@ -99,7 +98,6 @@
 			</div>
 
 			<!-- Slider Dots -->
-
 			<div class="main_slider_nav_left main_slider_nav">
 				<i class="fas fa-chevron-left trans_300"></i>
 			</div>
