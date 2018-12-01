@@ -1320,10 +1320,10 @@ section
 
 .services
 {
-	padding-top: 152px;
-	padding-bottom: 120px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	z-index: 1;
-	margin-top: -32px;
+	/*margin-top: -32px;*/
 }
 .services_background
 {

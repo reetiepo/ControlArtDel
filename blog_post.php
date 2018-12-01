@@ -4,7 +4,7 @@
 <title>Control Art Del - Blog Post</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Zeta Template Project - Blog Post">
+<meta name="description" content="Control Art Del">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
@@ -32,7 +32,10 @@
 	<div class="home prlx_parent">
 
 		<!-- Parallax Background -->
-		<div class="home_background prlx" style="background-image:url(images/services_parallax.jpg)"></div>
+		<?php
+			$bg = rand(1,3);
+			echo '<div class="home_background prlx" style="background-image:url(images/background'.$bg.'.jpg)"></div>';
+		?>
 
 		<div class="container">
 			<div class="row">
@@ -135,13 +138,13 @@
 
 							<!-- Blog Post Comments -->
 
-							<div class="blog_post_comments">
+							<!-- <div class="blog_post_comments">
 								<div class="blog_post_subtitle comments_subtitle">comments</div>
 								
-								<!-- Comments -->
+								<!-- Comments - ->
 								<div class="blog_post_comments_container">
 
-									<!-- Comment -->
+									<!-- Comment - ->
 									<div class="blog_post_comment d-flex flex-row">
 										<div class="blog_post_comment_image"><img src="images/blog_post_comment_1.jpg" alt=""></div>
 										<div class="blog_post_comment_content">
@@ -160,7 +163,7 @@
 										</div>
 									</div>
 
-									<!-- Comment -->
+									<!-- Comment - ->
 									<div class="blog_post_comment d-flex flex-row">
 										<div class="blog_post_comment_image"><img src="images/blog_post_comment_2.jpg" alt=""></div>
 										<div class="blog_post_comment_content">
@@ -180,10 +183,10 @@
 									</div>
 
 								</div>
-							</div>
+							</div> -->
 							
 							<!-- Reply -->
-							<div class="blog_post_reply">
+							<!-- <div class="blog_post_reply">
 								<form id="reply_form" action="post">
 									<div>
 										<input id="reply_form_name" class="input_field reply_form_name" type="text" placeholder="Name" required="required" data-error="Name is required.">
@@ -198,7 +201,7 @@
 									</div>
 
 								</form>
-							</div>
+							</div> -->
 							
 						</article>
 
@@ -215,7 +218,7 @@
 	
 	<?php
 
-		include "componentes/newsletter.php";
+		//include "componentes/newsletter.php";
 		include "componentes/footer.php";
 
 	?>

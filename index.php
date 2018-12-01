@@ -4,7 +4,7 @@
 <title>Control Art Del - Home</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Zeta Template Project">
+<meta name="description" content="Control Art Del">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
@@ -154,78 +154,6 @@
 						<p>Conseguimos antever soluções, antes mesmo do trabalho ser executado e saber se a sua ideia pode ser realizada dentro do prazo e orçamento desejados.</p>
 					</div>
 				</div>
-
-				<!-- Features Item -->
-				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/consultoria.svg" alt="">
-						</div>
-						<h3>Consultoria</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-				</div>
-				
-				<!-- Features Item -->
-				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/workshops.svg" alt="">
-						</div>
-						<h3>Workshops</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-				</div>
-				
-				<!-- Features Item -->
-				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/eventos.svg" alt="">
-						</div>
-						<h3>Eventos</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-				</div>
-
-				<!-- Features Item -->
-				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/corporativo.svg" alt="">
-						</div>
-						<h3>Corporativo</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-				</div>
-				
-				<!-- Features Item -->
-				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/icon_1.svg" alt="">
-						</div>
-						<h3>Varejo</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-				</div>
-				
-				<!-- Features Item -->
-				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/produtos.svg" alt="">
-						</div>
-						<h3>Produtos</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -309,9 +237,9 @@
 					echo '</div>';
 					echo '<!-- Post Content-->';
 					echo '<div class="post-content">';
-					echo '<div class="category">'.$team_array[$number]['cargo'].'</div>';
+					//echo '<div class="category">'.$team_array[$number]['cargo'].'</div>';
 					echo '<h1 class="title">'.$team_array[$number]['nome'].'</h1>';
-					echo '<p class="description">'.$team_array[$number]['descricao'].'</p>';
+					//echo '<p class="description">'.$team_array[$number]['descricao'].'</p>';
 					echo '</div>';
 					echo '</div>';
 					echo '</div>';
@@ -325,7 +253,7 @@
 
 	<div class="about quote prlx_parent">
 		<!-- https://unsplash.com/@nativemello -->
-		<div class="about_background prlx" style="background-image:url(images/chillybeans.png); opacity: 0.5;">
+		<div class="about_background prlx" style="background-image:url(images/sala_decorada.jpg); opacity: 0.5;">
 		</div>
 		<div class="container">
 			<div class="row">
@@ -514,9 +442,96 @@
 		</div>
 	</div> -->
 
+	<!-- Servicos -->
+
+	<div class="services">
+		<div class="services_background prlx" style="background-image:url(); opacity: 0.5;">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
+					<h2>nossos serviços<span>cad</span></h2>
+				</div>
+			</div>
+			<div class="row align-items-end">
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/consultoria.svg" alt="">
+						</div>
+						<h3>Consultoria</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/workshops.svg" alt="">
+						</div>
+						<h3>Workshops</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/eventos.svg" alt="">
+						</div>
+						<h3>Eventos</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/corporativo.svg" alt="">
+						</div>
+						<h3>Corporativo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/icon_1.svg" alt="">
+						</div>
+						<h3>Varejo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				
+				<!-- Features Item -->
+				<div class="col-lg-4 features_col">
+					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<div class="icon_container d-flex flex-column justify-content-end">
+							<img src="images/produtos.svg" alt="">
+						</div>
+						<h3>Produtos</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<?php
 
-		include "componentes/newsletter.php";
+		//include "componentes/newsletter.php";
 		include "componentes/footer.php";
 
 	?>

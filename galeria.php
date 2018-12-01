@@ -4,7 +4,7 @@
 <title>Control Art Del - Galeria</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Zeta Template Project - Services">
+<meta name="description" content="Control Art Del">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
@@ -33,8 +33,10 @@
 	<div class="home prlx_parent">
 
 		<!-- Parallax Background -->
-		<!-- <div class="page_top_background parallax-window" data-parallax="scroll" data-speed="0.7" data-image-src="images/services_parallax.jpg"></div> -->
-		<div class="home_background prlx" style="background-image:url(images/services_parallax.jpg)"></div>
+		<?php
+			$bg = rand(1,3);
+			echo '<div class="home_background prlx" style="background-image:url(images/background'.$bg.'.jpg)"></div>';
+		?>
 
 		<div class="container">
 			<div class="row">
@@ -66,7 +68,7 @@
 
 	<?php
 
-		include "componentes/newsletter.php";
+		//include "componentes/newsletter.php";
 		include "componentes/footer.php";
 
 	?>

@@ -761,6 +761,7 @@ section
 	font-weight: 300;
 	color: #000000;
 	margin-bottom: 2px;
+    text-shadow: 1px 1px 2px #000000;
 }
 .home_content span
 {
@@ -770,6 +771,7 @@ section
 	letter-spacing: 1em;
 	text-transform: uppercase;
 	padding-left: 3px;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 /*********************************

@@ -7,12 +7,12 @@
 				<i class="fas fa-map-marker-alt trans_300"></i> 
 				Alameda dos Nhambiquaras, 1770 - Conj. 1.102 - Moema, São Paulo - SP
 				<br>
-				<a href="mailto:atendimento@controlartdel.com.br">
+				<a href="mailto:atendimento@controlartdel.com.br" target="_blank">
 					<i class="fas fa-envelope trans_300"></i> 
 					atendimento@controlartdel.com.br
 				</a>
 				<br>
-				<a href="tel:5511988005196">
+				<a href="tel:5511988005196" target="_blank">
 					<i class="fas fa-phone trans_300"></i> 
 					+55 11 98800 5196
 				</a>
@@ -20,10 +20,10 @@
 			<div class="col-sm-4 text-sm-right text-center">
 				<div class="footer_social_container">
 					<ul class="footer_social">
-						<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/"><i class="fab fa-facebook-f trans_300"></i></a></li>
-						<!-- <li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li> -->
-						<li><a href="https://www.instagram.com/controlartdel/"><i class="fab fa-instagram trans_300"></i></a></li>
-						<!-- <li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li> -->
+						<li><a href="https://www.facebook.com/Control-Art-Del-113762895987467/" target="_blank"><i class="fab fa-facebook-f trans_300"></i></a></li>
+						<!-- <li><a href="#" target="_blank"><i class="fab fa-twitter trans_300"></i></a></li> -->
+						<li><a href="https://www.instagram.com/controlartdel/" target="_blank"><i class="fab fa-instagram trans_300"></i></a></li>
+						<!-- <li><a href="#" target="_blank"><i class="fab fa-linkedin-in trans_300"></i></a></li> -->
 					</ul>
 				</div>
 			</div>

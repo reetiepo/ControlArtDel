@@ -1,7 +1,7 @@
 <!-- Newsletter -->
 
 <div class="newsletter prlx_parent">
-	<div class="newsletter_background prlx" style="background-image:url(images/newsletter.jpg); opacity: .5;"></div>
+	<div class="newsletter_background prlx" style="background-image:url(images/newsletter.png); opacity: .5;"></div>
 	<div class="container">
 
 		<div class="row">

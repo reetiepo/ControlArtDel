@@ -4,7 +4,7 @@
 <title>Control Art Del - Contato</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Zeta Template Project - Contact">
+<meta name="description" content="Control Art Del">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
@@ -31,7 +31,10 @@
 	<div class="home prlx_parent">
 
 		<!-- Parallax Background -->
-		<div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+		<?php
+			$bg = rand(1,3);
+			echo '<div class="home_background prlx" style="background-image:url(images/background'.$bg.'.jpg)"></div>';
+		?>
 
 		<div class="container">
 			<div class="row">
@@ -63,12 +66,12 @@
 						
 						<!-- Contact Us Form -->
 						<div class="contact_form_container">
-							<form id="reply_form" action="post">
+							<form id="reply_form" action="scripts/enviarContato.php" method="post">
 								<div>
-									<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Nome" required="required" data-error="Nome é obrigatório.">
-									<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="E-mail válido é obrigatório.">
-									<input id="contact_form_subject" class="input_field contact_form_subject" type="text" placeholder="Assunto" required="required" data-error="Assunto é obrigatório.">
-									<textarea id="contact_form_message" class="text_field contact_form_message" name="message"  placeholder="Mensagem" rows="4" required data-error="Escreva algo para nós!"></textarea>
+									<input id="contact_form_name" class="input_field contact_form_name" name="nome" type="text" placeholder="Nome" required="required" data-error="Nome é obrigatório.">
+									<input id="contact_form_email" class="input_field contact_form_email" name="email" type="email" placeholder="E-mail" required="required" data-error="E-mail válido é obrigatório.">
+									<input id="contact_form_subject" class="input_field contact_form_subject" name="assunto" type="text" placeholder="Assunto" required="required" data-error="Assunto é obrigatório.">
+									<textarea id="contact_form_message" class="text_field contact_form_message" name="mensagem"  placeholder="Mensagem" rows="4" required data-error="Escreva algo para nós!"></textarea>
 								</div>
 								<div>
 									<button id="contact_form_submit" type="submit" class="contact_submit_btn trans_300" value="Submit">
@@ -95,12 +98,12 @@
 									<br>
 									Conj. 1.102 - Moema, São Paulo - SP</li>
 									<li>
-										<a href="mailto:atendimento@controlartdel.com.br">
+										<a href="mailto:atendimento@controlartdel.com.br" target="_blank">
 											atendimento@controlartdel.com.br
 										</a>
 									</li>
 									<li>
-										<a href="tel:5511988005196">
+										<a href="tel:5511988005196" target="_blank">
 											+55 11 98800 5196
 										</a>
 									</li>
@@ -115,7 +118,7 @@
 
 			<!-- Google Map Container -->
 
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col">
 					<div id="google_map">
 						<div class="map_container">
@@ -123,14 +126,14 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 		</div>
 	</div>
 
 	<?php
 
-		include "componentes/newsletter.php";
+		//include "componentes/newsletter.php";
 		include "componentes/footer.php";
 
 	?>

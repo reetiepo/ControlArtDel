@@ -39,7 +39,7 @@
 			<div class="sidebar_categories">
 				<div class="sidebar_title">categorias</div>
 				<ul>
-					<li><a href="#">eventos</a></li>
+					<li><a href="blog.php">eventos</a></li>
 				</ul>
 
 			</div>
