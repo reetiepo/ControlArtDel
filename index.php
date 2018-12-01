@@ -269,7 +269,7 @@
 
 	<!-- Clientes -->
 
-	<div class="clients">
+	<!-- <div class="clients">
 		<div class="container">
 
 			<div class="row">
@@ -292,7 +292,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Processo -->
 
@@ -444,7 +444,7 @@
 
 	<!-- Servicos -->
 
-	<div class="services">
+	<!-- <div class="services">
 		<div class="services_background prlx" style="background-image:url(); opacity: 0.5;">
 		</div>
 		<div class="container">
@@ -454,10 +454,10 @@
 				</div>
 			</div>
 			<div class="row align-items-end">
-				<!-- Features Item -->
+				<!-- Features Item - ->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/consultoria.svg" alt="">
 						</div>
@@ -466,10 +466,10 @@
 					</div>
 				</div>
 				
-				<!-- Features Item -->
+				<!-- Features Item - ->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/workshops.svg" alt="">
 						</div>
@@ -478,10 +478,10 @@
 					</div>
 				</div>
 				
-				<!-- Features Item -->
+				<!-- Features Item - ->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/eventos.svg" alt="">
 						</div>
@@ -490,10 +490,10 @@
 					</div>
 				</div>
 
-				<!-- Features Item -->
+				<!-- Features Item - ->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/corporativo.svg" alt="">
 						</div>
@@ -502,10 +502,10 @@
 					</div>
 				</div>
 				
-				<!-- Features Item -->
+				<!-- Features Item - ->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/icon_1.svg" alt="">
 						</div>
@@ -514,10 +514,10 @@
 					</div>
 				</div>
 				
-				<!-- Features Item -->
+				<!-- Features Item - ->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/produtos.svg" alt="">
 						</div>
@@ -527,7 +527,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<?php
 

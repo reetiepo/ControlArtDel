@@ -28,7 +28,7 @@ $mail->Port = 587;
 $mail->SMTPAuth = true;
 $mail->SMTPSecure = "tls";
 $mail->Username = "reetiepo@gmail.com"; 
-$mail->Password = "reezita3714"; 
+$mail->Password = "cadteste"; 
 $mail->setFrom("controlartdel@gmail.com", "Site CAD", "0");
 $mail->AddAddress("reetiepo@gmail.com");
 $mail->IsHTML(true); 
