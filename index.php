@@ -204,24 +204,24 @@
 				$team_array = array(
 					1 => array(
 					'foto' => 'team_renatto.png',
-					'cargo' => 'CEO',
+					'cargo' => 'Consultor',
 					'nome' => 'Renatto Arts',
 					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
 					2 => array(
 					'foto' => 'team_arthur.png',
-					'cargo' => 'Consultor de Arte',
+					'cargo' => 'Consultor',
 					'nome' => 'Arthur Uzum',
 					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
 					3 => array(
 					'foto' => 'team_victor.png',
-					'cargo' => 'Gerente Comercial',
+					'cargo' => 'Consultor',
 					'nome' => 'Victor',
 					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
 					4 => array(
 					'foto' => 'team_raquel.png',
-					'cargo' => 'Publicitária',
+					'cargo' => 'Projetos Especiais',
 					'nome' => 'Raquel Ernesto',
-					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.')
+					'descricao' => 'Publicitária, Consultora de Marketing e Sócia da Control Art Del.<br>Com forte vivência em agências de publicidade e no setor corporativo, meu foco é encontrar soluções criativas para tirar o seu projeto do papel e colocá-los nas paredes!')
 				);
 
 				$numbers = range(1, 4);
@@ -237,9 +237,9 @@
 					echo '</div>';
 					echo '<!-- Post Content-->';
 					echo '<div class="post-content">';
-					//echo '<div class="category">'.$team_array[$number]['cargo'].'</div>';
+					echo '<div class="category">'.$team_array[$number]['cargo'].'</div>';
 					echo '<h1 class="title">'.$team_array[$number]['nome'].'</h1>';
-					//echo '<p class="description">'.$team_array[$number]['descricao'].'</p>';
+					echo '<p class="description">'.$team_array[$number]['descricao'].'</p>';
 					echo '</div>';
 					echo '</div>';
 					echo '</div>';
@@ -269,7 +269,7 @@
 
 	<!-- Clientes -->
 
-	<!-- <div class="clients">
+	<div class="clients">
 		<div class="container">
 
 			<div class="row">
@@ -278,21 +278,21 @@
 				</div>
 			</div>
 			<div class="clients_row align-items-center justify-content-center text-center">
-				<div class="clients_item d-flex flex-column align-items-center justify-content-center text-center">
-					<img src="images/client_1.png" alt="">
-				</div>
-				<div class="clients_item d-flex flex-column align-items-center justify-content-center text-center">
-					<img src="images/client_2.png" alt="">
-				</div>
-				<div class="clients_item d-flex flex-column align-items-center justify-content-center text-center">
-					<img src="images/client_3.png" alt="">
-				</div>
-				<div class="clients_item d-flex flex-column align-items-center justify-content-center text-center">
-					<img src="images/client_4.png" alt="">
-				</div>
+
+				<?php
+
+					$directory = "images/clientes";
+					$images = glob($directory . "/*");
+
+					foreach($images as $image)
+					{
+					  echo '<div class="clients_item d-flex flex-column align-items-center justify-content-center text-center"><img src="'.$image.'" alt=""></div>';
+					}
+
+				?>
 			</div>
 		</div>
-	</div> -->
+	</div>
 
 	<!-- Processo -->
 
@@ -444,7 +444,7 @@
 
 	<!-- Servicos -->
 
-	<!-- <div class="services">
+	<div class="services">
 		<div class="services_background prlx" style="background-image:url(); opacity: 0.5;">
 		</div>
 		<div class="container">
@@ -454,10 +454,10 @@
 				</div>
 			</div>
 			<div class="row align-items-end">
-				<!-- Features Item - ->
+				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/consultoria.svg" alt="">
 						</div>
@@ -466,10 +466,10 @@
 					</div>
 				</div>
 				
-				<!-- Features Item - ->
+				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/workshops.svg" alt="">
 						</div>
@@ -478,10 +478,10 @@
 					</div>
 				</div>
 				
-				<!-- Features Item - ->
+				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/eventos.svg" alt="">
 						</div>
@@ -490,10 +490,10 @@
 					</div>
 				</div>
 
-				<!-- Features Item - ->
+				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/corporativo.svg" alt="">
 						</div>
@@ -502,10 +502,10 @@
 					</div>
 				</div>
 				
-				<!-- Features Item - ->
+				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
+						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/icon_1.svg" alt="">
 						</div>
@@ -514,10 +514,10 @@
 					</div>
 				</div>
 				
-				<!-- Features Item - ->
+				<!-- Features Item -->
 				<div class="col-lg-4 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> - ->
+						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/produtos.svg" alt="">
 						</div>
@@ -527,11 +527,11 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 
 	<?php
 
-		//include "componentes/newsletter.php";
+		include "componentes/newsletter.php";
 		include "componentes/footer.php";
 
 	?>

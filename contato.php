@@ -98,8 +98,8 @@
 									<br>
 									Conj. 1.102 - Moema, São Paulo - SP</li>
 									<li>
-										<a href="mailto:atendimento@controlartdel.com.br" target="_blank">
-											atendimento@controlartdel.com.br
+										<a href="mailto:contato@controlartdel.com.br" target="_blank">
+											contato@controlartdel.com.br
 										</a>
 									</li>
 									<li>
@@ -118,7 +118,7 @@
 
 			<!-- Google Map Container -->
 
-			<!-- <div class="row">
+			<div class="row">
 				<div class="col">
 					<div id="google_map">
 						<div class="map_container">
@@ -126,14 +126,14 @@
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 
 		</div>
 	</div>
 
 	<?php
 
-		//include "componentes/newsletter.php";
+		include "componentes/newsletter.php";
 		include "componentes/footer.php";
 
 	?>

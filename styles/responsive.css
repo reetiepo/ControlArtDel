@@ -282,7 +282,9 @@
 	.quote .sub_text p {
 		font-size: 12px;
 	}
-}
+	.clients_item img {
+		height: 100px;
+	}
 
 /************
 10. 640px

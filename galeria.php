@@ -68,7 +68,7 @@
 
 	<?php
 
-		//include "componentes/newsletter.php";
+		include "componentes/newsletter.php";
 		include "componentes/footer.php";
 
 	?>

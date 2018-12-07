@@ -7,9 +7,9 @@
 				<i class="fas fa-map-marker-alt trans_300"></i> 
 				Alameda dos Nhambiquaras, 1770 - Conj. 1.102 - Moema, São Paulo - SP
 				<br>
-				<a href="mailto:atendimento@controlartdel.com.br" target="_blank">
+				<a href="mailto:contato@controlartdel.com.br" target="_blank">
 					<i class="fas fa-envelope trans_300"></i> 
-					atendimento@controlartdel.com.br
+					contato@controlartdel.com.br
 				</a>
 				<br>
 				<a href="tel:5511988005196" target="_blank">
