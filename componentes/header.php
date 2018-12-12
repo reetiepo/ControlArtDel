@@ -6,7 +6,7 @@
 	<div class="logo_container mr-auto">
 		<div class="logo">
 			<!-- <a href="#"><span>z</span>zeta<span>.</span></a> -->
-			<a href="index.php"><img src="images/cad_logo.png" width="150"></a>
+			<a href="index.php"><img src="images/cad_logo.png" alt="Control ART Del" width="150"></a>
 		</div>
 	</div>
 

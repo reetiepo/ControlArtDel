@@ -211,7 +211,7 @@ $(document).ready(function()
         var settings = {
 			"async": true,
 			"crossDomain": true,
-			"url": "https://api.flickr.com/services/rest/?method=flickr.photosets.getList&api_key=ff88e61b776f726e4cb4116482a242ab&user_id=114081595%40N06&format=json&nojsoncallback=1",
+			"url": "https://api.flickr.com/services/rest/?method=flickr.photosets.getList&api_key=5b2bb957bab8b87119c7a4bad91f7a00&user_id=114081595%40N06&format=json&nojsoncallback=1",
 			"method": "GET",
 			"headers": {}
 		}

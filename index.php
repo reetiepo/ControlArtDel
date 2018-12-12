@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="google-site-verification" content="8ewyPVNKMW7R_m9Z785hlusSkoAWi2lEhtmp9tsJepE" />
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130647701-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GA_TRACKING_ID');
+</script>
 <title>Control Art Del - Home</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -191,7 +201,7 @@
 
 	<!-- Team -->
 
-	<div class="team">
+	<!-- <div class="team">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
@@ -201,71 +211,53 @@
 			<div class="team_row align-items-center justify-content-center">
 			<?php
 
-				$team_array = array(
-					1 => array(
-					'foto' => 'team_renatto.png',
-					'cargo' => 'Consultor',
-					'nome' => 'Renatto Arts',
-					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
-					2 => array(
-					'foto' => 'team_arthur.png',
-					'cargo' => 'Consultor',
-					'nome' => 'Arthur Uzum',
-					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
-					3 => array(
-					'foto' => 'team_victor.png',
-					'cargo' => 'Consultor',
-					'nome' => 'Victor',
-					'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
-					4 => array(
-					'foto' => 'team_raquel.png',
-					'cargo' => 'Projetos Especiais',
-					'nome' => 'Raquel Ernesto',
-					'descricao' => 'Publicitária, Consultora de Marketing e Sócia da Control Art Del.<br>Com forte vivência em agências de publicidade e no setor corporativo, meu foco é encontrar soluções criativas para tirar o seu projeto do papel e colocá-los nas paredes!')
-				);
+				// $team_array = array(
+				// 	1 => array(
+				// 	'foto' => 'team_renatto.png',
+				// 	'cargo' => 'Consultor',
+				// 	'nome' => 'Renatto Arts',
+				// 	'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
+				// 	2 => array(
+				// 	'foto' => 'team_arthur.png',
+				// 	'cargo' => 'Consultor',
+				// 	'nome' => 'Arthur Uzum',
+				// 	'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
+				// 	3 => array(
+				// 	'foto' => 'team_victor.png',
+				// 	'cargo' => 'Consultor',
+				// 	'nome' => 'Victor',
+				// 	'descricao' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'),
+				// 	4 => array(
+				// 	'foto' => 'team_raquel.png',
+				// 	'cargo' => 'Projetos Especiais',
+				// 	'nome' => 'Raquel Ernesto',
+				// 	'descricao' => 'Publicitária, Consultora de Marketing e Sócia da Control Art Del.<br>Com forte vivência em agências de publicidade e no setor corporativo, meu foco é encontrar soluções criativas para tirar o seu projeto do papel e colocá-los nas paredes!')
+				// );
 
-				$numbers = range(1, 4);
-				shuffle($numbers);
-				foreach ($numbers as $number) {
-					echo '<!-- Team -->';
-					echo '<div class="column">';
-					echo '<!-- Post-->';
-					echo '<div class="post-module">';
-					echo '<!-- Thumbnail-->';
-					echo '<div class="thumbnail">';
-					echo '<img src="images/'.$team_array[$number]['foto'].'"/>';
-					echo '</div>';
-					echo '<!-- Post Content-->';
-					echo '<div class="post-content">';
-					echo '<div class="category">'.$team_array[$number]['cargo'].'</div>';
-					echo '<h1 class="title">'.$team_array[$number]['nome'].'</h1>';
-					echo '<p class="description">'.$team_array[$number]['descricao'].'</p>';
-					echo '</div>';
-					echo '</div>';
-					echo '</div>';
-				}
+				// $numbers = range(1, 4);
+				// shuffle($numbers);
+				// foreach ($numbers as $number) {
+				// 	echo '<!-- Team -->';
+				// 	echo '<div class="column">';
+				// 	echo '<!-- Post-->';
+				// 	echo '<div class="post-module">';
+				// 	echo '<!-- Thumbnail-->';
+				// 	echo '<div class="thumbnail">';
+				// 	echo '<img src="images/'.$team_array[$number]['foto'].'"/>';
+				// 	echo '</div>';
+				// 	echo '<!-- Post Content-->';
+				// 	echo '<div class="post-content">';
+				// 	// echo '<div class="category">'.$team_array[$number]['cargo'].'</div>';
+				// 	echo '<h1 class="title">'.$team_array[$number]['nome'].'</h1>';
+				// 	// echo '<p class="description">'.$team_array[$number]['descricao'].'</p>';
+				// 	echo '</div>';
+				// 	echo '</div>';
+				// 	echo '</div>';
+				// }
 			?>
 			</div>
 		</div>
-	</div>
-
-	<!-- Dr. Craig Knight -->
-
-	<div class="about quote prlx_parent">
-		<!-- https://unsplash.com/@nativemello -->
-		<div class="about_background prlx" style="background-image:url(images/sala_decorada.jpg); opacity: 0.5;">
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="about_text">
-					<p class="stroke">“Se você enriquece um espaço, as pessoas se sentem muito mais felizes e trabalham melhor; uma maneira muito boa de fazer isso é usando arte.”</p>
-					<div class="col-lg-6 offset-lg-6 sub_text">
-						<p>Dr. Craig Knight estudou a psicologia dos ambientes de trabalho por 12 anos na Universidade de Exeter, e hoje lidera um grupo de pesquisa chamado Identity Realization (IDR).</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	</div> -->
 
 	<!-- Clientes -->
 
@@ -290,6 +282,24 @@
 					}
 
 				?>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Dr. Craig Knight -->
+
+	<div class="about quote prlx_parent">
+		<!-- https://unsplash.com/@nativemello -->
+		<div class="about_background prlx" style="background-image:url(images/sala_decorada.jpg); opacity: 0.5;">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="about_text">
+					<p class="stroke">“Se você enriquece um espaço, as pessoas se sentem muito mais felizes e trabalham melhor; uma maneira muito boa de fazer isso é usando arte.”</p>
+					<div class="col-lg-6 offset-lg-6 sub_text">
+						<p>Dr. Craig Knight estudou a psicologia dos ambientes de trabalho por 12 anos na Universidade de Exeter, e hoje lidera um grupo de pesquisa chamado Identity Realization (IDR).</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -462,19 +472,7 @@
 							<img src="images/consultoria.svg" alt="">
 						</div>
 						<h3>Consultoria</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-				</div>
-				
-				<!-- Features Item -->
-				<div class="col-lg-4 features_col">
-					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
-						<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-						<div class="icon_container d-flex flex-column justify-content-end">
-							<img src="images/workshops.svg" alt="">
-						</div>
-						<h3>Workshops</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Nossa equipe é multidisciplinar e preparada para assessorar empresas dos mais diversos segmentos em projetos artísticos.</p>
 					</div>
 				</div>
 				
@@ -486,7 +484,7 @@
 							<img src="images/eventos.svg" alt="">
 						</div>
 						<h3>Eventos</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Curadoria para a seleção de um time de artistas específico para participação em eventos corporativos, culturais, de live painting, entre outros.</p>
 					</div>
 				</div>
 
@@ -498,19 +496,19 @@
 							<img src="images/corporativo.svg" alt="">
 						</div>
 						<h3>Corporativo</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Criação de projetos artísticos para empresas e startups, tanto em arquitetura e decoração, quanto em workshops, team buildings e outros ligados à educação corporativa.</p>
 					</div>
 				</div>
 				
 				<!-- Features Item -->
-				<div class="col-lg-4 features_col">
+				<div class="col-lg-4 offset-lg-2 features_col">
 					<div class="features_item d-flex flex-column align-items-center justify-content-center text-center">
 						<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 						<div class="icon_container d-flex flex-column justify-content-end">
 							<img src="images/icon_1.svg" alt="">
 						</div>
 						<h3>Varejo</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Curadoria de artistas e estilos para transformar, com arte, estabelecimentos comerciais, como lojas, restaurantes, coworkings, entre outros.</p>
 					</div>
 				</div>
 				
@@ -522,7 +520,7 @@
 							<img src="images/produtos.svg" alt="">
 						</div>
 						<h3>Produtos</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Concepção e implantação de colabs com artistas para criação de produtos exclusivos e assinados.</p>
 					</div>
 				</div>
 			</div>

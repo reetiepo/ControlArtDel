@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130647701-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GA_TRACKING_ID');
+</script>	
 <title>Control Art Del - Galeria</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -88,7 +97,7 @@
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 <script src="plugins/easing/easing.js"></script>
-<script src="js/gallery_custom.js"></script>
+<script src="js/gallery_custom.min.js"></script>
 <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 </body>
