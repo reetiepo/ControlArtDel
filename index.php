@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
 <meta name="google-site-verification" content="8ewyPVNKMW7R_m9Z785hlusSkoAWi2lEhtmp9tsJepE" />
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
